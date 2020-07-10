@@ -12,6 +12,80 @@
     <div class="ctn-perfil">
         <img src="" alt="">
         <h1 class="title-welcome">Bienbenido a BandLab</h1>
+
+        
+        <div class="container-box">
+
+            <a href="#">
+                <div class="box box1">
+
+                    <i class="fas fa-image icon icon"></i>
+                    <h4 class="title">Imágenes</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <div class="background-hover"></div>
+
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="box box2">
+
+                    <i class="fas fa-film icon"></i>
+                    <h4 class="title">Película</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <div class="background-hover"></div>
+
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="box box3">
+
+                    <i class="fas fa-music icon"></i>
+                    <h4 class="title">Música</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <div class="background-hover"></div>
+
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="box box4">
+
+                    <i class="fas fa-podcast icon"></i>
+                    <h4 class="title">Podcast</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <div class="background-hover"></div>
+
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="box box5">
+
+                    <i class="fas fa-video icon"></i>
+                    <h4 class="title">Vídeo</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <div class="background-hover"></div>
+
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="box box6">
+
+                    <i class="fas fa-tv icon"></i>
+                    <h4 class="title">TV</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <div class="background-hover"></div>
+
+                </div>
+            </a>
+
+        </div>
+
+
+
     </div>
     
 </body>

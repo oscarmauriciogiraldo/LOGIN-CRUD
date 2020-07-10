@@ -1,3 +1,12 @@
+<?php 
+
+    // conexion al archivo back para este formulario 
+    // tambien es posible realizarlo aca en este mismo archivo 
+    
+    include 'code-register.php';
+    
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,19 +27,19 @@
         <!--<a title="pagina oficial" href="https://www.bandlab.com/"><img src="img/BandLab_logo.svg.png" alt="" class="log"></a>-->
         <h1 class="title">Crear una Cuenta</h1>
 
-        <form action="">
+        <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
 
             <label for="">Nombre de Usuario</label>
-            <input type="text" name="" id="">
-            <span class="mensage-error"></span>
+            <input type="text" name="username" id="">
+            <span class="mensage-error"> <?php echo $username_error; ?> </span>
 
             <label for="">Email</label>
-            <input type="email" name="" id="">
-            <span class="mensage-error"></span>
+            <input type="email" name="email" id="">
+            <span class="mensage-error"> <?php echo $email_error; ?> </span>
 
             <label for="">Contraseña</label>
-            <input type="password" name="" id="">
-            <span class="mensage-error"></span>
+            <input type="password" name="password" id="">
+            <span class="mensage-error"> <?php echo $password_error; ?> </span>
 
             <button type="submit">Registrar</button>
             

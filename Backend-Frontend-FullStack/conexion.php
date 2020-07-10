@@ -1,6 +1,21 @@
 <?php
 
-   #Definir variables
+   function conectar(){
+      $user="root";
+      $pass="";
+      $server="localhost";
+      $db="usuarios_bandlab";
+      /*$con=mysqli_connect($server,$user,$pass) or die ("error al conecar a la base de datos".mysqli_error());
+      mysqli_select_db($db,$con);*/
+      $link=mysqli_connect($server,$user,$pass) or die ("error al conecar a la base de datos".mysqli_error());
+      mysqli_select_db($db,$link);
+
+      //return $con;
+      return $link;
+   }
+
+   /*
+   //Definir variables
 
    # Nombre del servidor 
    define('DB_SERVER', 'localhost');
@@ -12,16 +27,17 @@
    define('DB_PASSWORD', '');
 
    # Nombre de la base de datos a la cual se conecta la aplicacion 
-   define('DB_NAME', 'usuarios_bandlab');
+   define('DB_NAME', 'usuarios');
 
    #conexion base de daos 
    $link = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
 
-   #mensaje de error por si no resulta bien la conexion 
-   if ($link === false) {
-       # code...
-       die("ERROR En LA CONEXION" . mysqli_connect_error());
+   if ($link === false ) {
+      # code...
+      die("ERROR EN LA CONEXION" . mysqli_connect_error());
    }
 
+   */
+  
 
 ?>
