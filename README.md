@@ -5,3 +5,5 @@ Diseño de un sistema de autenticacion y registro de usuario para la plataforma 
 
 # Modelo Entidad Relacion 
   - Bases de datos relacionales 
+
+# Conexion a la base de datos 
