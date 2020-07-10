@@ -2,7 +2,7 @@
 
    function conectar(){
       $user="root";
-      $pass="";
+      $pass="admin";
       $server="localhost";
       $db="usuarios_bandlab";
       /*$con=mysqli_connect($server,$user,$pass) or die ("error al conecar a la base de datos".mysqli_error());
